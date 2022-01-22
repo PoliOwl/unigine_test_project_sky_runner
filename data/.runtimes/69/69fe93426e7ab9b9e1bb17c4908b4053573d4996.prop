@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.15.0.1" name="MoldSpowner" guid="69fe93426e7ab9b9e1bb17c4908b4053573d4996" parent="657ecdbbfc83135a26777f86012da3587b67be0c" editable="0">
+	<parameter name="molds" type="array" tooltip="molds" array_type="node"/>
+	<parameter name="player" type="node" tooltip="player"/>
+</property>

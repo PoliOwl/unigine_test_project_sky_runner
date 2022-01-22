@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>750d4271f39d591c00a9a1cba8560cae4ed8ec35</guid>
+	<type>component</type>
+	<hash>21040696</hash>
+	<runtimes>
+		<runtime id="750d4271f39d591c00a9a1cba8560cae4ed8ec35" name="plarformsStoper.cs" link="0"/>
+		<runtime id="35deec1fd9dc4af2641d2da9679c9af406f409c3" name="plarformsStoper.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>6a1eccc9e5386f94423595e3960b01e66d35b00d</guid>
+	<type>component</type>
+	<hash>fb70ec91</hash>
+	<runtimes>
+		<runtime id="6a1eccc9e5386f94423595e3960b01e66d35b00d" name="platformKiller.cs" link="0"/>
+		<runtime id="7b968fb7893629aada62cd01b63ac26ce36ddadb" name="platformKiller.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

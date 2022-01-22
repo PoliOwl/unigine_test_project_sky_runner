@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>074fe425b80147400c23119f8bc332720893ef29</guid>
+	<type>world</type>
+	<hash>bf4b5c7a</hash>
+	<runtimes>
+		<runtime id="074fe425b80147400c23119f8bc332720893ef29" name="JumpRunTest.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="script_name"/>
+		<parameter type="xml" name="viewports"><viewport_list>
+	<1>
+		<flashlight>
+			<enabled>0</enabled>
+			<color>1 1 1 1</color>
+			<intensity>1</intensity>
+			<attenuation>1</attenuation>
+			<radius>300</radius>
+			<fov>160</fov>
+		</flashlight>
+		<speed_presets>
+			<speed_0>5</speed_0>
+			<speed_1>46</speed_1>
+			<speed_2>498</speed_2>
+			<current_preset>2</current_preset>
+		</speed_presets>
+		<scene_camera>
+			<transform>0.41966217756271362 0.90768027305603027 -1.3306735127116553e-05 0 -0.72872120141983032 0.33692994713783264 0.5961909294128418 0 0.54115521907806396 -0.25018906593322754 0.80284255743026733 0 126.15761566162109 96.626922607421875 188.27003479003906 1</transform>
+			<fov_mode>0</fov_mode>
+			<fov>60</fov>
+			<focal_length>30</focal_length>
+			<film_gate>35</film_gate>
+			<znear>0.101327807</znear>
+			<zfar>100000.008</zfar>
+			<viewport_mask>-1</viewport_mask>
+			<reflection_mask>-1</reflection_mask>
+			<source_mask>-1</source_mask>
+			<reverb_mask>-1</reverb_mask>
+			<ortho_enabled>0</ortho_enabled>
+			<ortho_height>58</ortho_height>
+			<projection>1.7320509 0 0 0 0 1.7320509 0 0 0 0 -1.00000203 -1 0 0 -0.202655822 0</projection>
+		</scene_camera>
+		<render_debug>
+			<mode>-1</mode>
+			<ligth_meter_max_intensity>500</ligth_meter_max_intensity>
+		</render_debug>
+		<selected_camera_id>-1</selected_camera_id>
+	</1>
+</viewport_list>
+</parameter>
+	</parameters>
+</asset>

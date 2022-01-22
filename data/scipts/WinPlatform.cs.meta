@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>9c3805dd10324d98adbf7417ada8028a3e741061</guid>
+	<type>component</type>
+	<hash>8c130b28</hash>
+	<runtimes>
+		<runtime id="9c3805dd10324d98adbf7417ada8028a3e741061" name="WinPlatform.cs" link="0"/>
+		<runtime id="c359ea2bd97ff98ea43b3395338aeff0a486c28f" name="WinPlatform.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

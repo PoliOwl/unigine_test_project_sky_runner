@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world version="2.15.0.1">
+	<sound>
+		<enabled>0</enabled>
+		<sound_manager_load_samples>0</sound_manager_load_samples>
+		<sound_manager_sample_static_memory>64</sound_manager_sample_static_memory>
+		<sound_manager_sample_stream_memory>16</sound_manager_sample_stream_memory>
+		<sound_reverb>2</sound_reverb>
+		<sound_occlusion>1</sound_occlusion>
+		<al_sound_skip_errors>0</al_sound_skip_errors>
+		<attenuation>3</attenuation>
+	</sound>
+	<render>
+		<data/>
+		<shader_defines/>
+		<stereo_distance>4</stereo_distance>
+		<stereo_radius>0.0320000015</stereo_radius>
+		<stereo_offset>0</stereo_offset>
+		<dirt_texture_name/>
+		<exposure_min_luminance>0.5</exposure_min_luminance>
+		<exposure_max_luminance>10</exposure_max_luminance>
+		<color_correction_brightness>0</color_correction_brightness>
+		<color_correction_contrast>0</color_correction_contrast>
+		<color_correction_gamma>1</color_correction_gamma>
+		<color_correction_white>1 1 1 1</color_correction_white>
+		<color_correction_lut/>
+		<color_correction_preserve_saturation>0</color_correction_preserve_saturation>
+		<color_correction_saturation>1 1 1 1 1 1 1 1 1 1 1 1</color_correction_saturation>
+		<color_correction_hue_shift>0 0 0 0 0 0 0 0 0 0 0 0</color_correction_hue_shift>
+		<color_correction value_min="0" value_max="1e+09">
+			<curve>
+				<keys>
+					<key point="0 0" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+			<curve>
+				<keys>
+					<key point="0 0" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+			<curve>
+				<keys>
+					<key point="0 0" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+			<curve>
+				<keys>
+					<key point="0 1" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+		</color_correction>
+		<sky_rotation>0 0 0 1</sky_rotation>
+		<albedo_cavity_texture_name>core/textures/common/white.dds</albedo_cavity_texture_name>
+		<shading_cavity_texture_name>core/textures/common/white.dds</shading_cavity_texture_name>
+		<albedo_convexity_texture_name>core/textures/common/white.dds</albedo_convexity_texture_name>
+		<shading_convexity_texture_name>core/textures/common/white.dds</shading_convexity_texture_name>
+		<environment_preset_0_intensity>1</environment_preset_0_intensity>
+		<environment_preset_0_scattering_base_lut_texture_name>core/textures/scattering_lut/preset_0/base.tga</environment_preset_0_scattering_base_lut_texture_name>
+		<environment_preset_0_scattering_mie_lut_texture_name>core/textures/scattering_lut/preset_0/mie.tga</environment_preset_0_scattering_mie_lut_texture_name>
+		<environment_preset_0_scattering_light_color_lut_texture_name>core/textures/scattering_lut/preset_0/light_color.tga</environment_preset_0_scattering_light_color_lut_texture_name>
+		<environment_preset_0_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_0_sun_texture_name>
+		<environment_preset_0_sun_angular_size>0.5</environment_preset_0_sun_angular_size>
+		<environment_preset_0_sun_texture_color>1 1 1 1</environment_preset_0_sun_texture_color>
+		<environment_preset_0_sun_texture_intensity>1000</environment_preset_0_sun_texture_intensity>
+		<environment_preset_0_moon_texture_name>core/textures/world_light/celestial_body_moon.png</environment_preset_0_moon_texture_name>
+		<environment_preset_0_moon_angular_size>0.5</environment_preset_0_moon_angular_size>
+		<environment_preset_0_moon_texture_color>1 1 1 1</environment_preset_0_moon_texture_color>
+		<environment_preset_0_moon_texture_intensity>50</environment_preset_0_moon_texture_intensity>
+		<environment_preset_0_texture_name>core/textures/common/environment_default.dds</environment_preset_0_texture_name>
+		<environment_preset_0_texture_color>1 1 1 1</environment_preset_0_texture_color>
+		<environment_preset_0_texture_rotation>0 0 0</environment_preset_0_texture_rotation>
+		<environment_preset_0_texture_blur>0</environment_preset_0_texture_blur>
+		<environment_preset_0_haze_color>1 1 1 1</environment_preset_0_haze_color>
+		<environment_preset_0_haze_max_distance>10000</environment_preset_0_haze_max_distance>
+		<environment_preset_0_haze_density>1</environment_preset_0_haze_density>
+		<environment_preset_0_haze_physical_start_height>-2000</environment_preset_0_haze_physical_start_height>
+		<environment_preset_0_haze_physical_half_visibility_distance>5</environment_preset_0_haze_physical_half_visibility_distance>
+		<environment_preset_0_haze_physical_half_falloff_height>225</environment_preset_0_haze_physical_half_falloff_height>
+		<environment_preset_0_haze_physical_ambient_light_intensity>1.35000002</environment_preset_0_haze_physical_ambient_light_intensity>
+		<environment_preset_0_haze_physical_ambient_color_saturation>0.800000012</environment_preset_0_haze_physical_ambient_color_saturation>
+		<environment_preset_0_haze_physical_sun_light_intensity>0.00999999978</environment_preset_0_haze_physical_sun_light_intensity>
+		<environment_preset_0_haze_physical_sun_color_saturation>0</environment_preset_0_haze_physical_sun_color_saturation>
+		<environment_preset_0_ambient_intensity>1</environment_preset_0_ambient_intensity>
+		<environment_preset_0_reflection_intensity>1</environment_preset_0_reflection_intensity>
+		<environment_preset_0_sky_intensity>1</environment_preset_0_sky_intensity>
+		<environment_preset_1_intensity>0</environment_preset_1_intensity>
+		<environment_preset_1_scattering_base_lut_texture_name>core/textures/scattering_lut/preset_1/base.tga</environment_preset_1_scattering_base_lut_texture_name>
+		<environment_preset_1_scattering_mie_lut_texture_name>core/textures/scattering_lut/preset_1/mie.tga</environment_preset_1_scattering_mie_lut_texture_name>
+		<environment_preset_1_scattering_light_color_lut_texture_name>core/textures/scattering_lut/preset_1/light_color.tga</environment_preset_1_scattering_light_color_lut_texture_name>
+		<environment_preset_1_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_1_sun_texture_name>
+		<environment_preset_1_sun_angular_size>0.5</environment_preset_1_sun_angular_size>
+		<environment_preset_1_sun_texture_color>1 1 1 1</environment_preset_1_sun_texture_color>
+		<environment_preset_1_sun_texture_intensity>1000</environment_preset_1_sun_texture_intensity>
+		<environment_preset_1_moon_texture_name>core/textures/world_light/celestial_body_moon.png</environment_preset_1_moon_texture_name>
+		<environment_preset_1_moon_angular_size>0.5</environment_preset_1_moon_angular_size>
+		<environment_preset_1_moon_texture_color>1 1 1 1</environment_preset_1_moon_texture_color>
+		<environment_preset_1_moon_texture_intensity>50</environment_preset_1_moon_texture_intensity>
+		<environment_preset_1_texture_name>core/textures/common/environment_default.dds</environment_preset_1_texture_name>
+		<environment_preset_1_texture_color>1 1 1 1</environment_preset_1_texture_color>
+		<environment_preset_1_texture_rotation>0 0 0</environment_preset_1_texture_rotation>
+		<environment_preset_1_texture_blur>0</environment_preset_1_texture_blur>
+		<environment_preset_1_haze_color>1 1 1 1</environment_preset_1_haze_color>
+		<environment_preset_1_haze_max_distance>10000</environment_preset_1_haze_max_distance>
+		<environment_preset_1_haze_density>5</environment_preset_1_haze_density>
+		<environment_preset_1_haze_physical_start_height>-2000</environment_preset_1_haze_physical_start_height>
+		<environment_preset_1_haze_physical_half_visibility_distance>0.5</environment_preset_1_haze_physical_half_visibility_distance>
+		<environment_preset_1_haze_physical_half_falloff_height>225</environment_preset_1_haze_physical_half_falloff_height>
+		<environment_preset_1_haze_physical_ambient_light_intensity>0.800000012</environment_preset_1_haze_physical_ambient_light_intensity>
+		<environment_preset_1_haze_physical_ambient_color_saturation>0.800000012</environment_preset_1_haze_physical_ambient_color_saturation>
+		<environment_preset_1_haze_physical_sun_light_intensity>0.00999999978</environment_preset_1_haze_physical_sun_light_intensity>
+		<environment_preset_1_haze_physical_sun_color_saturation>0</environment_preset_1_haze_physical_sun_color_saturation>
+		<environment_preset_1_ambient_intensity>1</environment_preset_1_ambient_intensity>
+		<environment_preset_1_reflection_intensity>1</environment_preset_1_reflection_intensity>
+		<environment_preset_1_sky_intensity>1</environment_preset_1_sky_intensity>
+		<environment_preset_2_intensity>0</environment_preset_2_intensity>
+		<environment_preset_2_scattering_base_lut_texture_name>core/textures/scattering_lut/preset_2/base.tga</environment_preset_2_scattering_base_lut_texture_name>
+		<environment_preset_2_scattering_mie_lut_texture_name>core/textures/scattering_lut/preset_2/mie.tga</environment_preset_2_scattering_mie_lut_texture_name>
+		<environment_preset_2_scattering_light_color_lut_texture_name>core/textures/scattering_lut/preset_2/light_color.tga</environment_preset_2_scattering_light_color_lut_texture_name>
+		<environment_preset_2_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_2_sun_texture_name>
+		<environment_preset_2_sun_angular_size>0.5</environment_preset_2_sun_angular_size>
+		<environment_preset_2_sun_texture_color>1 1 1 1</environment_preset_2_sun_texture_color>
+		<environment_preset_2_sun_texture_intensity>1</environment_preset_2_sun_texture_intensity>
+		<environment_preset_2_moon_texture_name>core/textures/world_light/celestial_body_moon.png</environment_preset_2_moon_texture_name>
+		<environment_preset_2_moon_angular_size>0.5</environment_preset_2_moon_angular_size>
+		<environment_preset_2_moon_texture_color>1 1 1 1</environment_preset_2_moon_texture_color>
+		<environment_preset_2_moon_texture_intensity>1</environment_preset_2_moon_texture_intensity>
+		<environment_preset_2_texture_name>core/textures/common/environment_default.dds</environment_preset_2_texture_name>
+		<environment_preset_2_texture_color>1 1 1 1</environment_preset_2_texture_color>
+		<environment_preset_2_texture_rotation>0 0 0</environment_preset_2_texture_rotation>
+		<environment_preset_2_texture_blur>0</environment_preset_2_texture_blur>
+		<environment_preset_2_haze_color>1 1 1 1</environment_preset_2_haze_color>
+		<environment_preset_2_haze_max_distance>10000</environment_preset_2_haze_max_distance>
+		<environment_preset_2_haze_density>5</environment_preset_2_haze_density>
+		<environment_preset_2_haze_physical_start_height>0</environment_preset_2_haze_physical_start_height>
+		<environment_preset_2_haze_physical_half_visibility_distance>10000</environment_preset_2_haze_physical_half_visibility_distance>
+		<environment_preset_2_haze_physical_half_falloff_height>100</environment_preset_2_haze_physical_half_falloff_height>
+		<environment_preset_2_haze_physical_ambient_light_intensity>1</environment_preset_2_haze_physical_ambient_light_intensity>
+		<environment_preset_2_haze_physical_ambient_color_saturation>1</environment_preset_2_haze_physical_ambient_color_saturation>
+		<environment_preset_2_haze_physical_sun_light_intensity>1</environment_preset_2_haze_physical_sun_light_intensity>
+		<environment_preset_2_haze_physical_sun_color_saturation>1</environment_preset_2_haze_physical_sun_color_saturation>
+		<environment_preset_2_ambient_intensity>1</environment_preset_2_ambient_intensity>
+		<environment_preset_2_reflection_intensity>1</environment_preset_2_reflection_intensity>
+		<environment_preset_2_sky_intensity>1</environment_preset_2_sky_intensity>
+		<gl_terrain_use_async>1</gl_terrain_use_async>
+		<gl_terrain_waiting_frames>4</gl_terrain_waiting_frames>
+		<gpu_thread_priority>7</gpu_thread_priority>
+		<render_aa_preset>smooth</render_aa_preset>
+		<render_aces_shoulder_angle>2.43000007</render_aces_shoulder_angle>
+		<render_aces_shoulder_length>0.140000001</render_aces_shoulder_length>
+		<render_aces_shoulder_strength>0.589999974</render_aces_shoulder_strength>
+		<render_aces_toe>0.0299999993</render_aces_toe>
+		<render_aces_white_clip>2.50999999</render_aces_white_clip>
+		<render_aces_with_reinhard_mix>0.5</render_aces_with_reinhard_mix>
+		<render_aces_with_reinhard_shoulder_angle>2.43000007</render_aces_with_reinhard_shoulder_angle>
+		<render_aces_with_reinhard_shoulder_length>0.140000001</render_aces_with_reinhard_shoulder_length>
+		<render_aces_with_reinhard_shoulder_strength>0.589999974</render_aces_with_reinhard_shoulder_strength>
+		<render_aces_with_reinhard_toe>0.0299999993</render_aces_with_reinhard_toe>
+		<render_aces_with_reinhard_white_clip>2.50999999</render_aces_with_reinhard_white_clip>
+		<render_alpha_fade>1</render_alpha_fade>
+		<render_animation_leaf>1</render_animation_leaf>
+		<render_animation_scale>1</render_animation_scale>
+		<render_animation_stem>1</render_animation_stem>
+		<render_animation_wind>0 0 0</render_animation_wind>
+		<render_auxiliary>1</render_auxiliary>
+		<render_background_color>0 0 0 0</render_background_color>
+		<render_bent_normal_color_clamping_intensity>1</render_bent_normal_color_clamping_intensity>
+		<render_bent_normal_color_clamping_velocity_threshold>0</render_bent_normal_color_clamping_velocity_threshold>
+		<render_bent_normal_denoise_gaussian_sigma>10</render_bent_normal_denoise_gaussian_sigma>
+		<render_bent_normal_denoise_intensity>0.200000003</render_bent_normal_denoise_intensity>
+		<render_bent_normal_denoise_quality>1</render_bent_normal_denoise_quality>
+		<render_bent_normal_denoise_radius>1</render_bent_normal_denoise_radius>
+		<render_bent_normal_denoise_threshold>0.100000001</render_bent_normal_denoise_threshold>
+		<render_bent_normal_fix_overlit_areas>0</render_bent_normal_fix_overlit_areas>
+		<render_bent_normal_preset>raytracing low</render_bent_normal_preset>
+		<render_bent_normal_ray_tracing>1</render_bent_normal_ray_tracing>
+		<render_bent_normal_ray_tracing_denoise>0</render_bent_normal_ray_tracing_denoise>
+		<render_bent_normal_ray_tracing_threshold>1</render_bent_normal_ray_tracing_threshold>
+		<render_bloom>1</render_bloom>
+		<render_bloom_passes>7</render_bloom_passes>
+		<render_bloom_power>1</render_bloom_power>
+		<render_bloom_resolution>1</render_bloom_resolution>
+		<render_bloom_scale>0.100000001</render_bloom_scale>
+		<render_border>0 0</render_border>
+		<render_budget>0.0160000008</render_budget>
+		<render_camera_effects_temporal_filtering>0</render_camera_effects_temporal_filtering>
+		<render_camera_effects_threshold>1.20000005</render_camera_effects_threshold>
+		<render_camera_mode>0</render_camera_mode>
+		<render_clouds_3d_texture_horizontal_resolution>2</render_clouds_3d_texture_horizontal_resolution>
+		<render_clouds_3d_texture_vertical_resolution>3</render_clouds_3d_texture_vertical_resolution>
+		<render_clouds_accurate_layers_sorting>0</render_clouds_accurate_layers_sorting>
+		<render_clouds_depth_based_reconstruction>1</render_clouds_depth_based_reconstruction>
+		<render_clouds_depth_based_reconstruction_threshold>25</render_clouds_depth_based_reconstruction_threshold>
+		<render_clouds_distortion_texture>0</render_clouds_distortion_texture>
+		<render_clouds_downsampling_rendering>1</render_clouds_downsampling_rendering>
+		<render_clouds_dynamic_coverage_area>10000</render_clouds_dynamic_coverage_area>
+		<render_clouds_dynamic_coverage_resolution>256</render_clouds_dynamic_coverage_resolution>
+		<render_clouds_enabled>1</render_clouds_enabled>
+		<render_clouds_ground_shadows>1</render_clouds_ground_shadows>
+		<render_clouds_interleaved_rendering>1</render_clouds_interleaved_rendering>
+		<render_clouds_interleaved_rendering_temporal>1</render_clouds_interleaved_rendering_temporal>
+		<render_clouds_lighting_cone_radius>0.300000012</render_clouds_lighting_cone_radius>
+		<render_clouds_lighting_quality>1</render_clouds_lighting_quality>
+		<render_clouds_lighting_samples_distribution>1.5</render_clouds_lighting_samples_distribution>
+		<render_clouds_lighting_tracelength>600</render_clouds_lighting_tracelength>
+		<render_clouds_noise_iterations>0.100000001</render_clouds_noise_iterations>
+		<render_clouds_noise_lighting>0.300000012</render_clouds_noise_lighting>
+		<render_clouds_noise_step>0.300000012</render_clouds_noise_step>
+		<render_clouds_noise_step_skip>0.300000012</render_clouds_noise_step_skip>
+		<render_clouds_quality_preset>medium</render_clouds_quality_preset>
+		<render_clouds_rounded>1</render_clouds_rounded>
+		<render_clouds_rounded_planet_radius>200000</render_clouds_rounded_planet_radius>
+		<render_clouds_samples_count>2</render_clouds_samples_count>
+		<render_clouds_sampling_quality>1</render_clouds_sampling_quality>
+		<render_clouds_soft_intersection>100</render_clouds_soft_intersection>
+		<render_clouds_step_accuracy>0.5</render_clouds_step_accuracy>
+		<render_clouds_transparent_order>0</render_clouds_transparent_order>
+		<render_cross>0</render_cross>
+		<render_cross_angle>45</render_cross_angle>
+		<render_cross_color>1 1 1 1</render_cross_color>
+		<render_cross_length>0.200000003</render_cross_length>
+		<render_cross_scale>0.400000006</render_cross_scale>
+		<render_cross_shafts>6</render_cross_shafts>
+		<render_cross_threshold>0</render_cross_threshold>
+		<render_debug>1</render_debug>
+		<render_decal_distance>1e+09</render_decal_distance>
+		<render_decals>1</render_decals>
+		<render_depth_pre_pass>0</render_depth_pre_pass>
+		<render_dirt_scale>0.5</render_dirt_scale>
+		<render_distance_offset>0</render_distance_offset>
+		<render_distance_scale>1</render_distance_scale>
+		<render_dof>0</render_dof>
+		<render_dof_blur>1</render_dof_blur>
+		<render_dof_bokeh_mode>0</render_dof_bokeh_mode>
+		<render_dof_chromatic_aberration>0</render_dof_chromatic_aberration>
+		<render_dof_far_distance>10</render_dof_far_distance>
+		<render_dof_far_focal_offset>9.99999997e-07</render_dof_far_focal_offset>
+		<render_dof_focal_distance>1</render_dof_focal_distance>
+		<render_dof_focus_improvement>0</render_dof_focus_improvement>
+		<render_dof_increased_accuracy>0</render_dof_increased_accuracy>
+		<render_dof_near_distance>10</render_dof_near_distance>
+		<render_dof_near_focal_offset>9.99999997e-07</render_dof_near_focal_offset>
+		<render_dof_preset>low</render_dof_preset>
+		<render_dof_quality>1</render_dof_quality>
+		<render_dof_resolution>2</render_dof_resolution>
+		<render_environment>1</render_environment>
+		<render_environment_correct_roughness>2</render_environment_correct_roughness>
+		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
+		<render_environment_haze>2</render_environment_haze>
+		<render_environment_haze_gradient>2</render_environment_haze_gradient>
+		<render_environment_hemisphere>0</render_environment_hemisphere>
+		<render_exposure>0.600000024</render_exposure>
+		<render_exposure_adaptation>1</render_exposure_adaptation>
+		<render_exposure_mode>2</render_exposure_mode>
+		<render_f_stop>11</render_f_stop>
+		<render_fade_color>0 0 0 0</render_fade_color>
+		<render_ffp_antialiasing_lines>1</render_ffp_antialiasing_lines>
+		<render_field_distance>1e+09</render_field_distance>
+		<render_field_height_resolution>2</render_field_height_resolution>
+		<render_field_precision>0</render_field_precision>
+		<render_field_shoreline_resolution>0</render_field_shoreline_resolution>
+		<render_filmic_linear_angle>0.100000001</render_filmic_linear_angle>
+		<render_filmic_linear_scale>0.300000012</render_filmic_linear_scale>
+		<render_filmic_saturation_recovery>0.600000024</render_filmic_saturation_recovery>
+		<render_filmic_shoulder_scale>1</render_filmic_shoulder_scale>
+		<render_filmic_toe_denominator>0.300000012</render_filmic_toe_denominator>
+		<render_filmic_toe_numerator>0.00999999978</render_filmic_toe_numerator>
+		<render_filmic_toe_scale>0.200000003</render_filmic_toe_scale>
+		<render_filmic_white_level>1.5</render_filmic_white_level>
+		<render_fxaa>0</render_fxaa>
+		<render_fxaa_intensity>0</render_fxaa_intensity>
+		<render_gbuffer_lightmap>1</render_gbuffer_lightmap>
+		<render_gi_preset>custom</render_gi_preset>
+		<render_iso>100</render_iso>
+		<render_landscape_cache_cpu_size>10</render_landscape_cache_cpu_size>
+		<render_landscape_cache_gpu_life_time>4</render_landscape_cache_gpu_life_time>
+		<render_landscape_cache_gpu_size>5</render_landscape_cache_gpu_size>
+		<render_landscape_operations_per_frame>10</render_landscape_operations_per_frame>
+		<render_landscape_terrain_culling_aggressive>1</render_landscape_terrain_culling_aggressive>
+		<render_landscape_terrain_culling_back_face>0.5</render_landscape_terrain_culling_back_face>
+		<render_landscape_terrain_culling_frustum_padding>0.100000001</render_landscape_terrain_culling_frustum_padding>
+		<render_landscape_terrain_culling_oblique_frustum>0.899999976</render_landscape_terrain_culling_oblique_frustum>
+		<render_landscape_terrain_detail_resolution_additional_mask>4</render_landscape_terrain_detail_resolution_additional_mask>
+		<render_landscape_terrain_detail_resolution_albedo>4</render_landscape_terrain_detail_resolution_albedo>
+		<render_landscape_terrain_detail_resolution_height>4</render_landscape_terrain_detail_resolution_height>
+		<render_landscape_terrain_geometry_fade_lods>0.25</render_landscape_terrain_geometry_fade_lods>
+		<render_landscape_terrain_geometry_holes>1</render_landscape_terrain_geometry_holes>
+		<render_landscape_terrain_geometry_polygon_size>0.0149999997</render_landscape_terrain_geometry_polygon_size>
+		<render_landscape_terrain_geometry_preset>medium</render_landscape_terrain_geometry_preset>
+		<render_landscape_terrain_geometry_progression>0.800000012</render_landscape_terrain_geometry_progression>
+		<render_landscape_terrain_geometry_subpixel_reduction>10</render_landscape_terrain_geometry_subpixel_reduction>
+		<render_landscape_terrain_mask_dithering>1</render_landscape_terrain_mask_dithering>
+		<render_landscape_terrain_streaming_preset>medium</render_landscape_terrain_streaming_preset>
+		<render_landscape_terrain_texel_size>0.00400000019</render_landscape_terrain_texel_size>
+		<render_landscape_terrain_visible_distance>30000</render_landscape_terrain_visible_distance>
+		<render_landscape_terrain_vt_detail_level_by_angle>0.850000024</render_landscape_terrain_vt_detail_level_by_angle>
+		<render_landscape_terrain_vt_filtering>1</render_landscape_terrain_vt_filtering>
+		<render_landscape_terrain_vt_memory_size>0.349999994</render_landscape_terrain_vt_memory_size>
+		<render_landscape_terrain_vt_target_resolution>1600 900</render_landscape_terrain_vt_target_resolution>
+		<render_landscape_terrain_vt_tiles_load_per_frame>6</render_landscape_terrain_vt_tiles_load_per_frame>
+		<render_landscape_terrain_vt_tiles_reload_per_frame>4</render_landscape_terrain_vt_tiles_reload_per_frame>
+		<render_landscape_terrain_vt_tiles_update_per_frame>14</render_landscape_terrain_vt_tiles_update_per_frame>
+		<render_latency>1</render_latency>
+		<render_lens>0</render_lens>
+		<render_lens_color>1 1 1 1</render_lens_color>
+		<render_lens_dispersion>1 1 1</render_lens_dispersion>
+		<render_lens_length>0.153999999</render_lens_length>
+		<render_lens_radius>0.270999998</render_lens_radius>
+		<render_lens_scale>0.0350000001</render_lens_scale>
+		<render_lens_threshold>1</render_lens_threshold>
+		<render_light_distance>1e+09</render_light_distance>
+		<render_lightmap_color>1 1 1 1</render_lightmap_color>
+		<render_lights_enabled>1</render_lights_enabled>
+		<render_lights_forward_per_object_env>4</render_lights_forward_per_object_env>
+		<render_lights_forward_per_object_omni>4</render_lights_forward_per_object_omni>
+		<render_lights_forward_per_object_planar>4</render_lights_forward_per_object_planar>
+		<render_lights_forward_per_object_proj>4</render_lights_forward_per_object_proj>
+		<render_lights_forward_per_object_voxel>4</render_lights_forward_per_object_voxel>
+		<render_lights_forward_per_object_world>4</render_lights_forward_per_object_world>
+		<render_lights_interleaved>0</render_lights_interleaved>
+		<render_lights_interleaved_catmull_resampling>0</render_lights_interleaved_catmull_resampling>
+		<render_lights_interleaved_color_clamping>1</render_lights_interleaved_color_clamping>
+		<render_lights_interleaved_samples>0</render_lights_interleaved_samples>
+		<render_lights_lens_flares>1</render_lights_lens_flares>
+		<render_lights_max_per_batch>1024</render_lights_max_per_batch>
+		<render_lights_tile_grid_size>8</render_lights_tile_grid_size>
+		<render_max_fps>150</render_max_fps>
+		<render_motion_blur>0</render_motion_blur>
+		<render_motion_blur_camera_velocity>1</render_motion_blur_camera_velocity>
+		<render_motion_blur_max_velocity>0.0299999993</render_motion_blur_max_velocity>
+		<render_motion_blur_neat_silhouettes>1</render_motion_blur_neat_silhouettes>
+		<render_motion_blur_noise_intensity>0.25</render_motion_blur_noise_intensity>
+		<render_motion_blur_num_steps>4</render_motion_blur_num_steps>
+		<render_motion_blur_preset>medium</render_motion_blur_preset>
+		<render_motion_blur_velocity_scale>1</render_motion_blur_velocity_scale>
+		<render_object_distance>1e+09</render_object_distance>
+		<render_occluders>1</render_occluders>
+		<render_occluders_resolution>128 64</render_occluders_resolution>
+		<render_occluders_shadows>0</render_occluders_shadows>
+		<render_occluders_shadows_resolution>512 512</render_occluders_shadows_resolution>
+		<render_occlusion_queries>1</render_occlusion_queries>
+		<render_occlusion_queries_num_frames>5</render_occlusion_queries_num_frames>
+		<render_panorama_fisheye_fov>180</render_panorama_fisheye_fov>
+		<render_pre_post_materials_enabled>1</render_pre_post_materials_enabled>
+		<render_reflection_distance>1e+09</render_reflection_distance>
+		<render_reflection_dynamic>1</render_reflection_dynamic>
+		<render_reflection_lods>1</render_reflection_lods>
+		<render_refraction>1</render_refraction>
+		<render_refraction_dispersion>1 1 1</render_refraction_dispersion>
+		<render_refraction_warp_background_transparent_surfaces>1</render_refraction_warp_background_transparent_surfaces>
+		<render_reinhard_contribution>1</render_reinhard_contribution>
+		<render_reinhard_luma_based_contribution>1</render_reinhard_luma_based_contribution>
+		<render_screen_precision>1</render_screen_precision>
+		<render_screen_space_effects>1</render_screen_space_effects>
+		<render_shaders_preload>0</render_shaders_preload>
+		<render_shadow_distance>100</render_shadow_distance>
+		<render_shadow_distance_scale>1</render_shadow_distance_scale>
+		<render_shadow_shafts>0</render_shadow_shafts>
+		<render_shadow_shafts_exposure>0.5</render_shadow_shafts_exposure>
+		<render_shadow_shafts_length>0.5</render_shadow_shafts_length>
+		<render_shadows>1</render_shadows>
+		<render_shadows_alpha_test>1</render_shadows_alpha_test>
+		<render_shadows_filter_mode>3</render_shadows_filter_mode>
+		<render_shadows_filter_noise>0</render_shadows_filter_noise>
+		<render_shadows_penumbra_mode>0</render_shadows_penumbra_mode>
+		<render_shadows_penumbra_noise>1</render_shadows_penumbra_noise>
+		<render_shadows_screen_space>0</render_shadows_screen_space>
+		<render_shadows_translucent_depth>0.25</render_shadows_translucent_depth>
+		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
+		<render_sharpen>1</render_sharpen>
+		<render_sharpen_intensity>0.5</render_sharpen_intensity>
+		<render_show_voxel_probe_visualizer_grid_size>15</render_show_voxel_probe_visualizer_grid_size>
+		<render_show_voxel_probe_visualizer_sphere_scale>0.25</render_show_voxel_probe_visualizer_sphere_scale>
+		<render_shutter_speed>250</render_shutter_speed>
+		<render_sraa>0</render_sraa>
+		<render_sraa_debug>0</render_sraa_debug>
+		<render_sraa_depth_threshold>0.100000001</render_sraa_depth_threshold>
+		<render_sraa_samples>1</render_sraa_samples>
+		<render_sraa_temporal>1</render_sraa_temporal>
+		<render_ssao>1</render_ssao>
+		<render_ssao_cavity>1</render_ssao_cavity>
+		<render_ssao_cavity_intensity>0.200000003</render_ssao_cavity_intensity>
+		<render_ssao_cavity_radius>2</render_ssao_cavity_radius>
+		<render_ssao_color_clamping_intensity>1</render_ssao_color_clamping_intensity>
+		<render_ssao_color_clamping_velocity_threshold>0</render_ssao_color_clamping_velocity_threshold>
+		<render_ssao_denoise_gaussian_sigma>10</render_ssao_denoise_gaussian_sigma>
+		<render_ssao_denoise_intensity>0.200000003</render_ssao_denoise_intensity>
+		<render_ssao_denoise_quality>1</render_ssao_denoise_quality>
+		<render_ssao_denoise_radius>1</render_ssao_denoise_radius>
+		<render_ssao_denoise_threshold>0.100000001</render_ssao_denoise_threshold>
+		<render_ssao_intensity>1</render_ssao_intensity>
+		<render_ssao_intensity_lighted_side>0</render_ssao_intensity_lighted_side>
+		<render_ssao_intensity_reflection>1</render_ssao_intensity_reflection>
+		<render_ssao_noise>1</render_ssao_noise>
+		<render_ssao_preset>raytracing + denoise</render_ssao_preset>
+		<render_ssao_quality>1</render_ssao_quality>
+		<render_ssao_radius>1</render_ssao_radius>
+		<render_ssao_ray_tracing>1</render_ssao_ray_tracing>
+		<render_ssao_ray_tracing_denoise>1</render_ssao_ray_tracing_denoise>
+		<render_ssao_ray_tracing_threshold>0.349999994</render_ssao_ray_tracing_threshold>
+		<render_ssao_resolution>1</render_ssao_resolution>
+		<render_ssao_threshold>0.300000012</render_ssao_threshold>
+		<render_ssbevel>0</render_ssbevel>
+		<render_ssbevel_noise>0</render_ssbevel_noise>
+		<render_ssbevel_quality>1</render_ssbevel_quality>
+		<render_ssbevel_radius>0.00999999978</render_ssbevel_radius>
+		<render_ssbevel_vertex_normal>0</render_ssbevel_vertex_normal>
+		<render_ssdirt>0</render_ssdirt>
+		<render_ssdirt_angle_bias>0.349999994</render_ssdirt_angle_bias>
+		<render_ssdirt_cavity_color>0.25999999 0.239999995 0.209999993 1</render_ssdirt_cavity_color>
+		<render_ssdirt_cavity_exponent>1</render_ssdirt_cavity_exponent>
+		<render_ssdirt_cavity_metalness>0</render_ssdirt_cavity_metalness>
+		<render_ssdirt_cavity_metalness_visibility>0</render_ssdirt_cavity_metalness_visibility>
+		<render_ssdirt_cavity_texture_size>1</render_ssdirt_cavity_texture_size>
+		<render_ssdirt_convexity_color>0.479999989 0.439999998 0.389999986 1</render_ssdirt_convexity_color>
+		<render_ssdirt_convexity_exponent>1</render_ssdirt_convexity_exponent>
+		<render_ssdirt_convexity_metalness>0</render_ssdirt_convexity_metalness>
+		<render_ssdirt_convexity_metalness_visibility>0</render_ssdirt_convexity_metalness_visibility>
+		<render_ssdirt_convexity_texture_size>1</render_ssdirt_convexity_texture_size>
+		<render_ssdirt_increase_accuracy>0</render_ssdirt_increase_accuracy>
+		<render_ssdirt_intensity>1</render_ssdirt_intensity>
+		<render_ssdirt_perspective>0.0199999996</render_ssdirt_perspective>
+		<render_ssdirt_quality>1</render_ssdirt_quality>
+		<render_ssdirt_radius>1</render_ssdirt_radius>
+		<render_ssdirt_resolution>1</render_ssdirt_resolution>
+		<render_ssdirt_threshold>1</render_ssdirt_threshold>
+		<render_ssgi>0</render_ssgi>
+		<render_ssgi_color_clamping_intensity>0.100000001</render_ssgi_color_clamping_intensity>
+		<render_ssgi_color_clamping_velocity_threshold>100</render_ssgi_color_clamping_velocity_threshold>
+		<render_ssgi_denoise>1</render_ssgi_denoise>
+		<render_ssgi_denoise_gaussian_sigma>10</render_ssgi_denoise_gaussian_sigma>
+		<render_ssgi_denoise_intensity>0.200000003</render_ssgi_denoise_intensity>
+		<render_ssgi_denoise_quality>1</render_ssgi_denoise_quality>
+		<render_ssgi_denoise_radius>1</render_ssgi_denoise_radius>
+		<render_ssgi_denoise_threshold>0.100000001</render_ssgi_denoise_threshold>
+		<render_ssgi_intensity>1</render_ssgi_intensity>
+		<render_ssgi_intensity_boost>1</render_ssgi_intensity_boost>
+		<render_ssgi_preset>raytracing</render_ssgi_preset>
+		<render_ssgi_radius>1</render_ssgi_radius>
+		<render_ssgi_resolution_color>1</render_ssgi_resolution_color>
+		<render_ssgi_threshold>1</render_ssgi_threshold>
+		<render_ssr>1</render_ssr>
+		<render_ssr_color_clamping_intensity>0.100000001</render_ssr_color_clamping_intensity>
+		<render_ssr_color_clamping_velocity_threshold>100</render_ssr_color_clamping_velocity_threshold>
+		<render_ssr_denoise>1</render_ssr_denoise>
+		<render_ssr_denoise_gaussian_sigma>10</render_ssr_denoise_gaussian_sigma>
+		<render_ssr_denoise_intensity>1</render_ssr_denoise_intensity>
+		<render_ssr_denoise_quality>1</render_ssr_denoise_quality>
+		<render_ssr_denoise_radius>1</render_ssr_denoise_radius>
+		<render_ssr_denoise_threshold>0.100000001</render_ssr_denoise_threshold>
+		<render_ssr_fast_tracing>1</render_ssr_fast_tracing>
+		<render_ssr_increased_accuracy>0</render_ssr_increased_accuracy>
+		<render_ssr_noise_ray>0.5</render_ssr_noise_ray>
+		<render_ssr_noise_step>0.300000012</render_ssr_noise_step>
+		<render_ssr_normal_bias>1</render_ssr_normal_bias>
+		<render_ssr_num_rays>6</render_ssr_num_rays>
+		<render_ssr_num_steps>2</render_ssr_num_steps>
+		<render_ssr_preset>medium</render_ssr_preset>
+		<render_ssr_resolution>1</render_ssr_resolution>
+		<render_ssr_resolution_color>0</render_ssr_resolution_color>
+		<render_ssr_resolution_depth>0</render_ssr_resolution_depth>
+		<render_ssr_step_size>2</render_ssr_step_size>
+		<render_ssr_threshold>1</render_ssr_threshold>
+		<render_ssr_threshold_occlusion>0.100000001</render_ssr_threshold_occlusion>
+		<render_ssr_view_bias>1</render_ssr_view_bias>
+		<render_ssr_visibility_roughness_max>0.449999988</render_ssr_visibility_roughness_max>
+		<render_ssr_visibility_roughness_min>0.25</render_ssr_visibility_roughness_min>
+		<render_ssrtgi>1</render_ssrtgi>
+		<render_ssrtgi_fast_tracing>1</render_ssrtgi_fast_tracing>
+		<render_ssrtgi_increased_accuracy>1</render_ssrtgi_increased_accuracy>
+		<render_ssrtgi_noise_ray>0.300000012</render_ssrtgi_noise_ray>
+		<render_ssrtgi_noise_step>0.300000012</render_ssrtgi_noise_step>
+		<render_ssrtgi_num_rays>12</render_ssrtgi_num_rays>
+		<render_ssrtgi_num_steps>3</render_ssrtgi_num_steps>
+		<render_ssrtgi_preset>low</render_ssrtgi_preset>
+		<render_ssrtgi_resolution>0</render_ssrtgi_resolution>
+		<render_ssrtgi_resolution_depth>0</render_ssrtgi_resolution_depth>
+		<render_ssrtgi_step_size>3</render_ssrtgi_step_size>
+		<render_ssrtgi_upscaling>1</render_ssrtgi_upscaling>
+		<render_sssss>0</render_sssss>
+		<render_sssss_ambient>0</render_sssss_ambient>
+		<render_sssss_color>1 0.400000006 0.200000003 1</render_sssss_color>
+		<render_sssss_diffuse>1</render_sssss_diffuse>
+		<render_sssss_interleaved>0</render_sssss_interleaved>
+		<render_sssss_interleaved_color_clamping>1</render_sssss_interleaved_color_clamping>
+		<render_sssss_interleaved_samples>0</render_sssss_interleaved_samples>
+		<render_sssss_max_threshold>10</render_sssss_max_threshold>
+		<render_sssss_min_threshold>4</render_sssss_min_threshold>
+		<render_sssss_noise_ray>0.5</render_sssss_noise_ray>
+		<render_sssss_noise_step>0.5</render_sssss_noise_step>
+		<render_sssss_preset>medium</render_sssss_preset>
+		<render_sssss_quality>1</render_sssss_quality>
+		<render_sssss_radius>0.0199999996</render_sssss_radius>
+		<render_sssss_resolution>1</render_sssss_resolution>
+		<render_sssss_taa_antialiasing_in_motion>0</render_sssss_taa_antialiasing_in_motion>
+		<render_sssss_taa_catmull_resampling>1</render_sssss_taa_catmull_resampling>
+		<render_sssss_taa_fix_flicker>1</render_sssss_taa_fix_flicker>
+		<render_sssss_taa_frame_count>30</render_sssss_taa_frame_count>
+		<render_sssss_taa_frames_by_color>0</render_sssss_taa_frames_by_color>
+		<render_sssss_taa_frames_by_velocity>1</render_sssss_taa_frames_by_velocity>
+		<render_sssss_taa_frames_velocity_threshold>1</render_sssss_taa_frames_velocity_threshold>
+		<render_sssss_taa_max_frames_by_velocity>60</render_sssss_taa_max_frames_by_velocity>
+		<render_sssss_taa_min_frames_by_velocity>4</render_sssss_taa_min_frames_by_velocity>
+		<render_sssss_taa_pixel_offset>1</render_sssss_taa_pixel_offset>
+		<render_sssss_taa_preserve_details>0.5</render_sssss_taa_preserve_details>
+		<render_sssss_taa_samples>1</render_sssss_taa_samples>
+		<render_stereo_hidden_area>0</render_stereo_hidden_area>
+		<render_stereo_hidden_area_exposure_transform>0.600000024 0.600000024 0 0</render_stereo_hidden_area_exposure_transform>
+		<render_stereo_hidden_area_transform>1 1 0 0</render_stereo_hidden_area_transform>
+		<render_streaming_destroy_duration>30</render_streaming_destroy_duration>
+		<render_streaming_max_threads>1</render_streaming_max_threads>
+		<render_streaming_meshes_memory_limit>15</render_streaming_meshes_memory_limit>
+		<render_streaming_mode>0</render_streaming_mode>
+		<render_streaming_particles_memory_limit>3</render_streaming_particles_memory_limit>
+		<render_streaming_textures_cache_resolution>1</render_streaming_textures_cache_resolution>
+		<render_streaming_textures_memory_limit>65</render_streaming_textures_memory_limit>
+		<render_streaming_update_limit>1.5</render_streaming_update_limit>
+		<render_streaming_use_memory_limit>1</render_streaming_use_memory_limit>
+		<render_supersampling>1</render_supersampling>
+		<render_taa>1</render_taa>
+		<render_taa_antialiasing_in_motion>0</render_taa_antialiasing_in_motion>
+		<render_taa_catmull_resampling>1</render_taa_catmull_resampling>
+		<render_taa_diagonal_neighbors>0</render_taa_diagonal_neighbors>
+		<render_taa_fix_flicker>1</render_taa_fix_flicker>
+		<render_taa_frame_count>30</render_taa_frame_count>
+		<render_taa_frames_by_color>1</render_taa_frames_by_color>
+		<render_taa_frames_by_velocity>1</render_taa_frames_by_velocity>
+		<render_taa_frames_velocity_threshold>1</render_taa_frames_velocity_threshold>
+		<render_taa_max_frames_by_velocity>60</render_taa_max_frames_by_velocity>
+		<render_taa_min_frames_by_velocity>4</render_taa_min_frames_by_velocity>
+		<render_taa_pixel_offset>1</render_taa_pixel_offset>
+		<render_taa_preserve_details>1</render_taa_preserve_details>
+		<render_taa_preset>taa_smooth</render_taa_preset>
+		<render_taa_samples>1</render_taa_samples>
+		<render_terrain_global_anisotropy>2</render_terrain_global_anisotropy>
+		<render_terrain_global_displacement>0</render_terrain_global_displacement>
+		<render_terrain_global_displacement_normal>0</render_terrain_global_displacement_normal>
+		<render_terrain_global_holes>1</render_terrain_global_holes>
+		<render_terrain_global_triplanar>1</render_terrain_global_triplanar>
+		<render_tessellation_density_multiplier>1</render_tessellation_density_multiplier>
+		<render_tessellation_distance_multiplier>1</render_tessellation_distance_multiplier>
+		<render_tessellation_shadow_density_multiplier>1</render_tessellation_shadow_density_multiplier>
+		<render_textures_anisotropy>4</render_textures_anisotropy>
+		<render_textures_filter>1</render_textures_filter>
+		<render_textures_max_resolution>6</render_textures_max_resolution>
+		<render_textures_min_resolution>0</render_textures_min_resolution>
+		<render_textures_quality>2</render_textures_quality>
+		<render_tonemapper>1</render_tonemapper>
+		<render_translucent_color>1 1 1 1</render_translucent_color>
+		<render_transparent_ambient>1</render_transparent_ambient>
+		<render_transparent_blur>1</render_transparent_blur>
+		<render_transparent_deferred>1</render_transparent_deferred>
+		<render_transparent_enabled>1</render_transparent_enabled>
+		<render_transparent_light>1</render_transparent_light>
+		<render_transparent_multiple_env_probes>1</render_transparent_multiple_env_probes>
+		<render_viewport_mode>0</render_viewport_mode>
+		<render_virtual_resolution>-1 -1</render_virtual_resolution>
+		<render_vr_emulation>0</render_vr_emulation>
+		<render_water_anisotropy>1</render_water_anisotropy>
+		<render_water_culling_aggressive>1</render_water_culling_aggressive>
+		<render_water_culling_frustum_padding>0.100000001</render_water_culling_frustum_padding>
+		<render_water_culling_oblique_frustum>0.899999976</render_water_culling_oblique_frustum>
+		<render_water_enabled>1</render_water_enabled>
+		<render_water_environment_probes>1</render_water_environment_probes>
+		<render_water_geometry_fade_lods>0.5</render_water_geometry_fade_lods>
+		<render_water_geometry_polygon_size>0.100000001</render_water_geometry_polygon_size>
+		<render_water_geometry_preset>low</render_water_geometry_preset>
+		<render_water_geometry_progression>1.5</render_water_geometry_progression>
+		<render_water_geometry_subpixel_reduction>2</render_water_geometry_subpixel_reduction>
+		<render_water_lights>1</render_water_lights>
+		<render_water_opacity_depth>1</render_water_opacity_depth>
+		<render_water_planar_probes>1</render_water_planar_probes>
+		<render_water_refraction_quality>2</render_water_refraction_quality>
+		<render_water_shafts>1</render_water_shafts>
+		<render_water_shoreline_wetness>1</render_water_shoreline_wetness>
+		<render_water_ssr>1</render_water_ssr>
+		<render_water_ssr_increased_accuracy>0</render_water_ssr_increased_accuracy>
+		<render_water_ssr_quality>1</render_water_ssr_quality>
+		<render_water_visible_distance>30000</render_water_visible_distance>
+		<render_water_voxel_probes>1</render_water_voxel_probes>
+		<render_water_waterline_accuracy>0</render_water_waterline_accuracy>
+		<render_white_balance>1</render_white_balance>
+		<render_white_balance_adaptation_time>1</render_white_balance_adaptation_time>
+		<render_white_balance_intensity>0.300000012</render_white_balance_intensity>
+		<render_wireframe_antialiasing>1</render_wireframe_antialiasing>
+		<render_wireframe_color>1 1 1 1</render_wireframe_color>
+		<composite_material_guid>guid://</composite_material_guid>
+		<composite_deferred_material_guid>guid://</composite_deferred_material_guid>
+		<debug_materials/>
+		<scriptable_materials/>
+	</render>
+	<physics>
+		<frozen_linear_velocity>0.0199999996</frozen_linear_velocity>
+		<frozen_angular_velocity>0.0199999996</frozen_angular_velocity>
+	</physics>
+	<game>
+		<enabled>0</enabled>
+	</game>
+	<editor>
+		<node type="LightWorld" id="824505625" name="sun">
+			<scattering>1</scattering>
+			<disable_angle>100</disable_angle>
+			<shadow_height>10</shadow_height>
+			<shadow_width>10</shadow_width>
+			<shadow_zfar>100</shadow_zfar>
+			<shadow_cascade_mode>0</shadow_cascade_mode>
+			<num_shadow_cascades>2</num_shadow_cascades>
+			<shadow_cascade_borders>0.0075000003 0.0500000007 0.200000003</shadow_cascade_borders>
+			<color_mode>1</color_mode>
+			<shadow_resolution>5</shadow_resolution>
+			<shadow_bias>1</shadow_bias>
+			<mode>1</mode>
+			<shadow_filter_mode>-1</shadow_filter_mode>
+			<shadow_filter>1</shadow_filter>
+			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+			<shadow_penumbra>0.150000006</shadow_penumbra>
+			<shadow_screen_space>1</shadow_screen_space>
+			<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+			<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+			<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+			<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+			<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+			<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+			<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+			<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+			<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+			<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+			<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+			<shadow_color_texture_mode>1</shadow_color_texture_mode>
+			<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+			<lens_flare_enabled>1</lens_flare_enabled>
+			<lens_flare_texture>core/textures/lens_flares_default.dds</lens_flare_texture>
+			<lens_flare_intensity>1</lens_flare_intensity>
+			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+			<lens_flare_use_light_color>1</lens_flare_use_light_color>
+			<lens_flare_billboards num="31">
+				<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+				<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+				<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+				<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+				<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+				<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+				<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+				<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+				<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+				<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+				<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+				<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+				<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+				<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+				<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+				<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+				<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+				<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+				<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+				<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+				<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+				<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+				<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+				<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+				<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+			</lens_flare_billboards>
+			<transform>-0.43301237 0.43559623 -0.78914917 0.0 -0.75000048 -0.6597392 0.047366858 0.0 -0.49999967 0.61237252 0.6123724 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1055833078" name="ObjectCloudLayer_Altocumulus">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.62205046 -4.6662683 6.4464951 1.0</transform>
+			<node type="ObjectCloudLayer" id="1977950916" name="ObjectCloudLayer_Altocumulus">
+				<coverage_animation_offset>0 0 0 0</coverage_animation_offset>
+				<noise_animation_offset>0 0 0 0</noise_animation_offset>
+				<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="be1d1f319feef2bb9dc86652f73c59a66643ea59"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 6000 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="666055120" name="ObjectCloudLayer_Altostratus">
+			<transform>0.95505583 0.029431017 0.29496068 0.0 0.18689704 -0.83213931 -0.5221253 0.0 0.23008177 0.55378646 -0.80024058 0.0 0.19425482 -4.480473 7.6765165 1.0</transform>
+			<node type="ObjectCloudLayer" id="59393970" name="ObjectCloudLayer_Altostratus">
+				<coverage_animation_offset>0 0 0 0</coverage_animation_offset>
+				<noise_animation_offset>0 0 0 0</noise_animation_offset>
+				<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="0648b8c71757c4525f547db239201950f538f03f"/>
+				<properties>
+					<property parent="59a101a018e1c87f0a2fbbd21d3329091c429ed4" guid="675f79365cd99f1d32b695d831809f578ef2b4ca"/>
+					<property parent="59a101a018e1c87f0a2fbbd21d3329091c429ed4" guid="1043d842367d3ab9a241a4c4b88e6953a2bc5e96"/>
+					<property parent="c7a20a9df9390b58ba7196d7b14c464a7e8a0121" guid="330b921cb4f886cb9c95adaec93a1935109a5910"/>
+				</properties>
+				<transform>0.48856243 0.8021518 -0.34329307 0.0 0.82115299 -0.2897076 0.49169159 0.0 0.2949577 -0.52211934 -0.80023062 0.0 -0.0018615723 -0.0037841797 2000.0398 1.0</transform>
+			</node>
+		</node>
+		<node type="PlayerActor" id="1102926842" name="PlayerActor">
+			<physical>1</physical>
+			<physical_mass>60</physical_mass>
+			<physical_mask>0x1</physical_mask>
+			<physics_intersection_mask>0x1</physics_intersection_mask>
+			<collision>1</collision>
+			<collision_mask>0x1</collision_mask>
+			<collision_radius>0.300000012</collision_radius>
+			<collision_height>1</collision_height>
+			<min_friction>0.5</min_friction>
+			<max_friction>2</max_friction>
+			<min_velocity>2</min_velocity>
+			<max_velocity>4</max_velocity>
+			<min_theta_angle>-89.9000015</min_theta_angle>
+			<max_theta_angle>89.9000015</max_theta_angle>
+			<acceleration>8</acceleration>
+			<damping>8</damping>
+			<turning>90</turning>
+			<jumping>2</jumping>
+			<znear>0.300000012</znear>
+			<zfar>100000</zfar>
+			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+			<is_oblique_frustum>0</is_oblique_frustum>
+			<is_main>1</is_main>
+			<is_listener>1</is_listener>
+			<controlled>1</controlled>
+			<transform>0.00054646016 0.99999982 1.2167964e-08 0.0 -0.99999994 0.00054646021 1.4805936e-16 0.0 -6.6491595e-12 -1.2167963e-08 1 0.0 -5.7924957 -4.2556086 0.78402871 1.0</transform>
+			<node type="ObjectMeshStatic" id="558764837" name="Cylinder">
+				<mesh_name>guid://303ce72c86ee389b8838953e45d33b85c1dcf720</mesh_name>
+				<surface name="cylinder" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" shadow_mask="0x0" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="7b968fb7893629aada62cd01b63ac26ce36ddadb" guid="48b69c84f8f57e1300fcec5623d737bd400715f8"/>
+				</properties>
+				<transform>0.0032683609 -11.749266 -3.9767554e-11 0.0 11.749267 0.0032683602 -1.4296462e-07 0.0 3.3768401e-09 4.1270258e-17 0.27751896 0.0 4.2915344e-06 4.2915344e-06 -0.068370648 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1499280851" name="PlayerStep">
+				<mesh_name>guid://383954b734f82aaaf8a2da0109a96b6cb8626fdb</mesh_name>
+				<surface name="box" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" shadow_mask="0x0" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="35deec1fd9dc4af2641d2da9679c9af406f409c3" guid="e46edba774e3a4daf8f72e71e686551cc6e66dcb">
+						<parameter name="manager">30c61e97a36dab0aef209ee1e45daaccd529e7bb</parameter>
+					</property>
+				</properties>
+				<transform>0.00027811102 -0.99999982 -3.3838969e-12 0.0 0.99999982 0.00027811102 -1.2167962e-08 0.0 1.2167963e-08 1.4788515e-16 0.99999994 0.0 -0.16248083 -0.026034944 0.070388831 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1872527824" enabled="0" trigger_interaction_enabled="1" name="smallBonus">
+			<mesh_name>guid://6c0a1a8956e5e254587ce9a350c8c2a65664f9cd</mesh_name>
+			<surface name="capsule" shadow_mask="0x0" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<properties>
+				<property parent="67c5131be4b0adbe362f7a05d1f323a04099827f" guid="2e9f4ae3628732e6140a2d0db52b6b08301092c7">
+					<parameter name="manager">30c61e97a36dab0aef209ee1e45daaccd529e7bb</parameter>
+				</property>
+			</properties>
+			<transform>0.22218245 0 0 0.0 0 0.22218245 0 0.0 0 0 0.22218251 0.0 4.3126187 0.41676468 1.0384705 1.0</transform>
+			<node type="ObjectMeshStatic" id="921700171" name="smallBonus_1">
+				<mesh_name>guid://9f5e3cd9d1a7806428dc5073f2e7db365bd2991d</mesh_name>
+				<surface name="capsule" physics_friction="1" physics_restitution="1" material="b01f0ff61d64c6dd4d5e1a9841a6dd17a53e578a"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 1.8117805 1.0</transform>
+			</node>
+			<node type="LightOmni" id="947254800" name="LightOmni">
+				<attenuation_distance>1.04700005</attenuation_distance>
+				<shape>2 1 0.200000003</shape>
+				<shape_type>0</shape_type>
+				<shadow_mask>0x0</shadow_mask>
+				<color_mode>1</color_mode>
+				<color_filter>1 1 0.0823529437 1</color_filter>
+				<intensity>0.3125</intensity>
+				<attenuation_power>0.319370002</attenuation_power>
+				<shadow_bias>1</shadow_bias>
+				<shadow_distance>40</shadow_distance>
+				<fade_distance>10</fade_distance>
+				<mode>1</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0</shadow_penumbra>
+				<shadow_screen_space>0</shadow_screen_space>
+				<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+				<shadow_color_texture_mode>0</shadow_color_texture_mode>
+				<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+				<baked_depth_texture>guid://ce7ac533e53848f66d62abdde380bb98668f0a17</baked_depth_texture>
+				<lens_flare_enabled>0</lens_flare_enabled>
+				<lens_flare_texture>core/textures/lens_flares_default.dds</lens_flare_texture>
+				<lens_flare_intensity>1</lens_flare_intensity>
+				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+				<lens_flare_use_light_color>1</lens_flare_use_light_color>
+				<lens_flare_billboards num="31">
+					<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+					<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+					<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+					<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+					<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+					<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+					<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+					<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+					<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+					<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+					<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+					<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+					<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+					<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+					<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+					<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+					<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+					<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+					<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+				</lens_flare_billboards>
+				<transform>4.3126416 0.87070894 -0.94878364 0.0 0.87071037 0.47155628 4.3905144 0.0 0.94877875 -4.3905134 0.28339782 0.0 0.023151398 0.087124944 1.7890573 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="186915301" name="LevelManager">
+			<properties>
+				<property parent="a7326492a0523ac9e1a9059495b133e3824607e6" guid="30c61e97a36dab0aef209ee1e45daaccd529e7bb"/>
+			</properties>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -2622.4448 45.309082 -445.30798 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1302136101" enabled="0" trigger_interaction_enabled="1" name="BigBonus">
+			<mesh_name>guid://6c0a1a8956e5e254587ce9a350c8c2a65664f9cd</mesh_name>
+			<surface name="capsule" shadow_mask="0x0" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<properties>
+				<property parent="67c5131be4b0adbe362f7a05d1f323a04099827f" guid="9d1cf520b0b225ffe6857b522b5ae289c5b00a54">
+					<parameter name="points">25</parameter>
+					<parameter name="manager">30c61e97a36dab0aef209ee1e45daaccd529e7bb</parameter>
+				</property>
+			</properties>
+			<transform>0.22218245 0 0 0.0 0 0.22218245 0 0.0 0 0 0.22218251 0.0 4.3126187 2.1819942 1.0384705 1.0</transform>
+			<node type="ObjectMeshStatic" id="1037668932" name="smallBonus_1">
+				<mesh_name>guid://9f5e3cd9d1a7806428dc5073f2e7db365bd2991d</mesh_name>
+				<surface name="capsule" physics_friction="1" physics_restitution="1" material="842fcb55d92d24b0d587f04fb5cca162c2b23159"/>
+				<transform>2.6175141 0 0 0.0 0 2.6175137 0 0.0 0 0 1 0.0 0 0 1.8117805 1.0</transform>
+			</node>
+			<node type="LightOmni" id="1499980913" name="LightOmni">
+				<attenuation_distance>1.04700005</attenuation_distance>
+				<shape>2 1 0.200000003</shape>
+				<shape_type>0</shape_type>
+				<shadow_mask>0x0</shadow_mask>
+				<color_mode>1</color_mode>
+				<color_filter>0.403921604 1 0.223529428 1</color_filter>
+				<intensity>0.3125</intensity>
+				<attenuation_power>0.319370002</attenuation_power>
+				<shadow_bias>1</shadow_bias>
+				<shadow_distance>40</shadow_distance>
+				<fade_distance>10</fade_distance>
+				<mode>1</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0</shadow_penumbra>
+				<shadow_screen_space>0</shadow_screen_space>
+				<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+				<shadow_color_texture_mode>0</shadow_color_texture_mode>
+				<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+				<baked_depth_texture>guid://4ff4db1540357170de48560fbfdc4c2230465d19</baked_depth_texture>
+				<lens_flare_enabled>0</lens_flare_enabled>
+				<lens_flare_texture>core/textures/lens_flares_default.dds</lens_flare_texture>
+				<lens_flare_intensity>1</lens_flare_intensity>
+				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+				<lens_flare_use_light_color>1</lens_flare_use_light_color>
+				<lens_flare_billboards num="31">
+					<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+					<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+					<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+					<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+					<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+					<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+					<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+					<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+					<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+					<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+					<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+					<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+					<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+					<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+					<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+					<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+					<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+					<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+					<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+				</lens_flare_billboards>
+				<transform>4.3126416 0.87070894 -0.94878364 0.0 0.87071037 0.47155628 4.3905144 0.0 0.94877875 -4.3905134 0.28339782 0.0 0.023151398 0.087124944 1.7890573 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="805638964" trigger_interaction_enabled="1" name="platform_4">
+			<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+			<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>37.458443 0 0 0.0 0 11.5218 0 0.0 0 0 0.12092602 0.0 -5.5072999 -4.3540754 0.72356564 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1893344546" enabled="0" name="mold">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.3217745 21.850395 0.72356755 1.0</transform>
+			<node type="ObjectMeshStatic" id="572301999" trigger_interaction_enabled="1" name="platform_1">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="215cd637d6debe2a779d57818be2caec84d9495b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.9675102 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.757228 -16.895542 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1135022428" trigger_interaction_enabled="1" name="platform_2">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="1821120e66ac72154cb21c70dfbf050f339d2f22">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 0.61627102 -16.727171 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1857022036" trigger_interaction_enabled="1" name="platform_3">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="7c7853edb220a46857c0bca7e8b211dabee0b771">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -11.986434 -16.917498 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="574091030" trigger_interaction_enabled="1" name="platform_5">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="19573b160c8db77d41f212b8dd2736b76f18a4aa">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -0.1545229 16.9175 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="460628762" trigger_interaction_enabled="1" name="platform_6">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c6e50c01c4f1f56c9c0d71dba2ddfd7eb60306c5">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -12.757228 16.727173 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="130581573" trigger_interaction_enabled="1" name="platform_7">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="5885c960b3d66d3f790099929de8ebc915d60294">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 11.986434 16.749126 1.9073486e-06 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="44379958" enabled="0" name="mold_1">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.3217745 21.850395 0.72356755 1.0</transform>
+			<node type="ObjectMeshStatic" id="1268905640" trigger_interaction_enabled="1" name="platform_1">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="84c0805535a455b0ce1b6d4f4e17fa6234fbb659">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.9675102 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.757228 -16.895542 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="844584694" trigger_interaction_enabled="1" name="platform_2">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="068fabe4997b85f353ce92b62026ea9d49386b58">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 0.61627102 -16.727171 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="360646019" trigger_interaction_enabled="1" name="platform_3">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="eaa976d74762a64a67ece121e162880c39d0a3fb">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -11.986434 -16.917498 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="463623837" trigger_interaction_enabled="1" name="platform_8">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="95e4adbdedba13f8660ec6f7bc9477eaad9a4641">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -17.401646 -13.264263 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1199850397" trigger_interaction_enabled="1" name="platform_9">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="f0535c26a717c54d75c5a64834c11507e64cceba">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -9.6095495 -9.923708 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1215888316" trigger_interaction_enabled="1" name="platform_11">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="435da67439d69f433d54bbc672e3606d150b46e8">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -15.003018 -6.6965485 -9.5367432e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="874473396" trigger_interaction_enabled="1" name="platform_12">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="2d6629b9524fc7c4b638305398a57996caede3fd">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -17.143608 -1.4836636 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="95447428" trigger_interaction_enabled="1" name="platform_13">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="9a945012ffa03049c1ef7d14b862456387bceb66">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -19.327633 3.7553387 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="506054073" trigger_interaction_enabled="1" name="platform_14">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="9c20fdcf187350e252961ad9dbf1c6641c85de73">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -13.742904 5.8904552 -1.7166138e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="941004285" trigger_interaction_enabled="1" name="platform_15">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="55020880316c61df7cb5c5b24cd0e9692b4ba3b4">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -4.039381 -2.0603809 -2.0980835e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1752911710" trigger_interaction_enabled="1" name="platform_17">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="0cdbf33e47930185977e0520a3fff5ff92590b52">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -7.830924 3.9141674 -2.4795532e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="752245848" trigger_interaction_enabled="1" name="platform_19">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="0f6c87cc85f920bb7f631ede3671f8a5b16751c0">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -16.653542 12.096069 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1887035332" trigger_interaction_enabled="1" name="platform_20">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="090b48d34da0b8163117107d876197b8cfcef7b7">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 1.0934153 -5.385313 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1542918229" trigger_interaction_enabled="1" name="platform_21">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="aaadf794655d7de3ed81c9e6b9edd80d8add1a08">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 6.4343128 -0.53056908 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1888688087" trigger_interaction_enabled="1" name="platform_22">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="75697f59ab38e0e48e3136f36e8e8fb6afb4c39d">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 0.6733017 3.2138824 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1664412681" trigger_interaction_enabled="1" name="platform_23">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c85dbc32230f6de9e5c35e34f1f7740372840986">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 5.9032178 6.78549 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1757299670" trigger_interaction_enabled="1" name="platform_24">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="a42bda6f608845022c0b407940826f845f613513">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -0.13892269 10.390198 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="914622604" trigger_interaction_enabled="1" name="platform_27">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="02bf8be85b8f7e2760cae55a63e874f1595de99c">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 2.8734756 -11.20322 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1911516659" trigger_interaction_enabled="1" name="platform_28">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="b1093cfddce8da388aac58378fb4582affd22981">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 8.613039 -8.8601627 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1670480611" trigger_interaction_enabled="1" name="platform_30">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="107d8f731c320e36ffe9301dd746f2d826e35857">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.590942 -7.1097012 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="221397884" trigger_interaction_enabled="1" name="platform_31">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="516018b411bbec831c01280607065fad79c5bd28">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 16.97035 -2.3649158 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="97762194" trigger_interaction_enabled="1" name="platform_32">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c8b5e4f94337ca049b25cd93409df5d6764db33d">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 17.402481 -11.949378 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="728859470" trigger_interaction_enabled="1" name="platform_34">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="d519470f117e8922eed176195a90e8a44a801bb3">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.404907 2.2288284 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2112953531" trigger_interaction_enabled="1" name="platform_35">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="16d0f6c0c01bfb1fa9f00df2dfd014a986bc55f4">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 11.466064 7.8742886 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="19063383" trigger_interaction_enabled="1" name="platform_36">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c459a335dc305b1093bbf32f5f7606c2c5109739">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 15.503788 12.325932 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="457702986" trigger_interaction_enabled="1" name="platform_80">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="5b2c9eb824e852b7c10f10aaab7088010f6f416c">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -7.584609 -14.29215 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="688851615" trigger_interaction_enabled="1" name="platform_84">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="b71b059fd992967261f40329be1672740280fb43">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -11.094985 -5.4345455 -9.5367432e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1503339906" trigger_interaction_enabled="1" name="platform_85">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="cf268f9023a79daf3adcaf4244ea25b9b66b93c4">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -12.55244 -1.3904819 -9.5367432e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1139135223" trigger_interaction_enabled="1" name="platform_86">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c73a11472d331dfad36315118184cb3c92032d6b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.233774 -2.6027927 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1529450875" trigger_interaction_enabled="1" name="platform_87">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="8fe7b1b23661e56968106fb4fa5a57837dae9706">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 20.465101 -7.9613276 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="574639463" trigger_interaction_enabled="1" name="platform_88">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="5226f6c10793612cd4ee6a9b74271f3ec5ec3d85">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -6.9897985 8.6318378 -2.4795532e-05 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1270351006" enabled="0" name="mold_2">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.3217745 21.850395 0.72356755 1.0</transform>
+			<node type="ObjectMeshStatic" id="1511419544" trigger_interaction_enabled="1" name="platform_1">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="5e2a89b66a3c759d34b27a58f8d639d7e05a8d4a">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.9675102 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.757228 -16.895542 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="208224664" trigger_interaction_enabled="1" name="platform_2">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="818d9c217c0e070cd02016fbd5bb201ec8a988e5">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 0.61627102 -16.727171 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="901895583" trigger_interaction_enabled="1" name="platform_3">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="57f325003185d45fd01f96320ec37fe95f144834">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -11.986434 -16.917498 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="429206057" trigger_interaction_enabled="1" name="platform_25">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="ab4dbbbe3dbd300570a961a0fa8ea87f41371bd2">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -4.3626032 -11.637275 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="362066424" trigger_interaction_enabled="1" name="platform_37">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="b678402bae4e578eda29f995698efdf05e4f788f">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -9.6218996 -6.7920847 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1959693602" trigger_interaction_enabled="1" name="platform_38">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="5aff1c4c4415ab3b0c85275ec50f672573ecee40">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -13.774192 -11.348918 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1060537181" trigger_interaction_enabled="1" name="platform_39">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="2a50c6f1ff56139c69da1a4b144f2b2e072678b5">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -13.39573 -1.747921 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2119012883" trigger_interaction_enabled="1" name="platform_40">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="a859f22a4596fb817ce81eec15968d5b1f4962fe">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -11.456571 4.8889027 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1381854039" trigger_interaction_enabled="1" name="platform_41">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="1bcff847c1d9d8fa115c941176ca3e3ced5c046b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -15.304069 10.375763 5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="528534088" trigger_interaction_enabled="1" name="platform_42">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="8a588cb2485f0469334502b49997ce83b037a206">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 14.830172 -10.864903 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1736783124" trigger_interaction_enabled="1" name="platform_43">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="e440ecefd5793582989a76f925ff3404ed822f93">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 11.383722 -5.7912922 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1077773248" trigger_interaction_enabled="1" name="platform_44">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="1e977420798498ff2e075252879ccd89abaaf954">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 18.554039 -4.8540115 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1603303418" trigger_interaction_enabled="1" name="platform_45">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="7ebb5615b84bb070fb83890fcd2fe322eaaf0819">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 21.426941 0.89487839 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1576591729" trigger_interaction_enabled="1" name="platform_46">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="87f2f5def469e3a511a040c04e1ebd1feb5fe7f2">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 17.552349 6.7144547 -9.5367432e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="799789584" trigger_interaction_enabled="1" name="platform_47">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="5bf222cbc76a99aed81215357bfa2510d177352f">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 13.507539 12.082748 -9.5367432e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="556668140" trigger_interaction_enabled="1" name="platform_48">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="0a9abd34e7c14703f2d5c08689151e2d8eec69a8">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 8.7913971 -0.62944984 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1391419435" trigger_interaction_enabled="1" name="platform_49">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="7de21b7966ad8e8484ebc81377faae563c0611bd">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 8.5193729 8.9456253 -1.7166138e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="924402218" trigger_interaction_enabled="1" name="platform_50">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="01e5cdfc02c8d12bd12bb48ee775b295531d62f0">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -0.84515858 -7.6458654 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="252491862" trigger_interaction_enabled="1" name="platform_51">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="808cdf61b50ff14c58ce7c3b262dc45e962d6025">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -1.4232664 -3.4402695 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="300027249" trigger_interaction_enabled="1" name="platform_52">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c8eb8c5aff1aeff15af0289c820b2b4b8493082e">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -1.4962378 2.9805241 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="100947533" trigger_interaction_enabled="1" name="platform_53">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="bf619b37009abf2a978f6481e15b73ec704fde5b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -0.73649502 8.8508739 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="842888149" trigger_interaction_enabled="1" name="platform_54">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="2c234b88ea99f947d781e5fa65133d11ff66d33c">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -6.1485491 13.575901 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="360287159" trigger_interaction_enabled="1" name="platform_55">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="bdf3d119729187a448e22eb39e01a476f991515d">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.22932 4.1673584 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="662591420" trigger_interaction_enabled="1" name="platform_89">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="59e67fa41b02c6b31e395c76a7b5a95dac389b18">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 6.4685459 4.0672283 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="639446097" trigger_interaction_enabled="1" name="platform_90">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="84ae07a90fd3acf444ebf3c38d9506466a5628ed">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 8.1436224 -15.36936 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="526504938" trigger_interaction_enabled="1" name="platform_91">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="bcc5c5c2ef374a39a9616e446cf4a4d357226416">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 5.5821853 -10.844976 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="10612502" trigger_interaction_enabled="1" name="platform_92">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="3ed1d9e751780e1a95b006b1a052d05cb8a4300b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -14.510007 -6.9887342 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="582885199" trigger_interaction_enabled="1" name="platform_93">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="9cb82dd20d8cf309d14de0d4d9abd623aae5c526">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -17.402058 0.35873795 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1330246623" trigger_interaction_enabled="1" name="platform_94">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="e6f0d28f7a859ea2303e8d996ff81a2453f69f33">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -21.045303 5.5780659 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="181257715" trigger_interaction_enabled="1" name="platform_95">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="863e515ad3ccf0f12d60359c1be9d44b8d379d2e">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -6.1765776 0.64365768 -1.9073486e-06 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1711446590" enabled="0" name="mold_3">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.3217745 21.850395 0.72356755 1.0</transform>
+			<node type="ObjectMeshStatic" id="66028000" trigger_interaction_enabled="1" name="platform_1">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="f9a5b4e49a2ffaf3b09683b60954279d1bd28458">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.9675102 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 12.757228 -16.895542 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="199812762" trigger_interaction_enabled="1" name="platform_2">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="7372bbd72819274a21976e210839b10cee13b8fb">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 0.61627102 -16.727171 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="670132893" trigger_interaction_enabled="1" name="platform_3">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="3fa65a1e8cb77ae57d146f0091b2965f79b17032">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -11.350007 -18.387892 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="533256346" trigger_interaction_enabled="1" name="platform_56">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="45df13ac96657b1b5445f5be63742205e15faba0">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -1.6516113 -10.768549 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="115195015" trigger_interaction_enabled="1" name="platform_57">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="db7ddbd1fed162fc451d622b0a3d118ecd656b95">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 1.6212482 -5.5038071 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1475945446" trigger_interaction_enabled="1" name="platform_58">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="11bd9a8ac61cc8615534c64cf48b4d3bb30a615e">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 6.6585579 -1.4880428 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2043939517" trigger_interaction_enabled="1" name="platform_59">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="0fcd8227a189195a8a4918f1d19e3d9cf2403c4b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 9.4616928 4.3325157 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1327772073" trigger_interaction_enabled="1" name="platform_61">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="22db888dcfc21088b927fa47021df2fa012de611">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 10.162474 11.202595 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="107787139" trigger_interaction_enabled="1" name="platform_62">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="0b44843e05a85e85d6a1be2025865aff8f6a2c52">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 4.3587327 6.1143627 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1732058344" trigger_interaction_enabled="1" name="platform_63">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="f7892aaba019400eae9ac81550107a70d2fdcb0f">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 0.37278032 10.364666 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="647525354" trigger_interaction_enabled="1" name="platform_64">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="78d98b46a6cee9edfe4a426838d1c2a7b4f35fda">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 10.984243 -11.8711 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1105850801" trigger_interaction_enabled="1" name="platform_65">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="0e613dd3bf9c291632e1cd7ddafb30b83291bcb7">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 11.913617 -6.0055647 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1707482938" trigger_interaction_enabled="1" name="platform_66">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="e191c0949204b2e3fe1d7ae6e35bd50d2d40f308">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 13.886908 -0.685112 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1686654987" trigger_interaction_enabled="1" name="platform_67">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="b19389fb8369f71e433473e5dda314006baef75f">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 17.043043 -11.568068 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2015497932" trigger_interaction_enabled="1" name="platform_68">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="f13ba856b1eec3bd850131f8589f4cf7b94f45ea">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -7.403554 -12.847999 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1506581113" trigger_interaction_enabled="1" name="platform_69">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="a46baf239819ca26f9ff5b4d974c4448f98b1b07">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -13.274598 -10.515013 -1.7166138e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1528696158" trigger_interaction_enabled="1" name="platform_71">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c5e93d2930a66474d03c454396a229c693a5f66d">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -13.527005 -0.21768951 -9.5367432e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="610961877" trigger_interaction_enabled="1" name="platform_72">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="9672d1420f15dfb990c005c4a89f5653b7066796">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -15.084624 5.9863281 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2119939551" trigger_interaction_enabled="1" name="platform_73">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="c3c523bf3756de125815664939673b140d2aeb63">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -8.7163992 -5.3372402 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1948684285" trigger_interaction_enabled="1" name="platform_74">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="ed089acad1454ba1dbcef08c5774f27bf3ff459e">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -19.963448 -0.0046977997 -1.7166138e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="257612123" trigger_interaction_enabled="1" name="platform_75">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="3f2c03675015299acc1f6c31afebf7dc64a8318b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -23.604992 -4.9380932 -2.0980835e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1883989966" trigger_interaction_enabled="1" name="platform_76">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="44f4f47835ff2d771720ac6a4423f0c18708132c">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -22.513348 -11.220775 -2.0980835e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="516827827" trigger_interaction_enabled="1" name="platform_77">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="8b4d27cdf03aa6c817651b8765b8233a357bd951">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -17.530361 -15.856077 -2.0980835e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="492834582" trigger_interaction_enabled="1" name="platform_78">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="d259e044a0fe6ed39c1da6163243267d4d62b5b8">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -12.747584 11.090446 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2037450531" trigger_interaction_enabled="1" name="platform_79">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="0cfbd99d7e428e58111f3dd797a7c14aa7314021">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -17.49794 13.981911 -1.7166138e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="440038712" trigger_interaction_enabled="1" name="platform_96">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="2b5cb54914803e146fa2126346a854662291e08d">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>8.789793 0 0 0.0 0 2.9675107 0 0.0 0 0 0.12092603 0.0 -5.43326 3.6313686 -9.5367432e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1318561043" trigger_interaction_enabled="1" name="platform_97">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="9eed138caceeb97b3f78609edb78cf65c510b980">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 18.671282 -5.2088413 1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1151070677" trigger_interaction_enabled="1" name="platform_98">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="e7e3299394e3a1d64c5f6f3d008ee778cea28477">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 3.0805693 -12.93914 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2018628948" trigger_interaction_enabled="1" name="platform_99">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="92fdf9f24d8d10a901bd21f4ff64e4c3bebf4346">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -20.228371 3.8266125 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1220767596" trigger_interaction_enabled="1" name="platform_100">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="84974ae3901f32e6f4c22d0d6e836b08a98892c7">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -23.092876 11.925373 -1.335144e-05 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="774023682" trigger_interaction_enabled="1" name="platform_101">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="2eb0af1e1b1bcbe599728c0057080f5f5e3e9532">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 15.730412 5.6013336 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2114510362" trigger_interaction_enabled="1" name="platform_102">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="4cb71bbdcc3da9f8c68164f7bb5a7dea1a0c9441">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 5.5424538 -8.8849926 -1.9073486e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1542648692" trigger_interaction_enabled="1" name="platform_103">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="36bfa4f07b51f38fef9a4ba24439569900ca4f24">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -6.0977278 -8.9451847 -5.7220459e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2061999009" trigger_interaction_enabled="1" name="platform_104">
+				<mesh_name>guid://b535a5cf016fd8e20d9902d92b878e645cd10673</mesh_name>
+				<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+				<properties>
+					<property parent="a2739bbcc1b6c3eb06b9884ecfc7f35537d72cb0" guid="6c5b1b27b0afde5afebf19f1d9024a9c7482e54b">
+						<parameter name="doomClock">5</parameter>
+						<parameter name="smallBonus">1872527824</parameter>
+						<parameter name="bigBonus">1302136101</parameter>
+					</property>
+				</properties>
+				<transform>2.96751 0 0 0.0 0 2.9675112 0 0.0 0 0 0.12092602 0.0 -17.911037 -8.1532936 -1.7166138e-05 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1744538724" name="NodeDummy">
+			<properties>
+				<property parent="69fe93426e7ab9b9e1bb17c4908b4053573d4996" guid="e0d918e595bd7500c0abe45fcf6e6632bca40fe9">
+					<parameter name="molds">
+						<value index="0">44379958</value>
+						<value index="1">1270351006</value>
+						<value index="2">1711446590</value>
+					</parameter>
+					<parameter name="player">1102926842</parameter>
+				</property>
+				<property/>
+			</properties>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -5.3217702 21.850401 0.72356999 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1941215899" name="NodeDummy_1">
+			<properties>
+				<property parent="69fe93426e7ab9b9e1bb17c4908b4053573d4996" guid="a727c04c577dff3bce496b5e731edb25c6edd240">
+					<parameter name="molds">
+						<value index="0">44379958</value>
+						<value index="1">1270351006</value>
+						<value index="2">1711446590</value>
+					</parameter>
+					<parameter name="player">1102926842</parameter>
+				</property>
+				<property/>
+			</properties>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -5.3217702 21.850401 -10.72357 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="727920536" name="NodeDummy_2">
+			<properties>
+				<property parent="69fe93426e7ab9b9e1bb17c4908b4053573d4996" guid="6853faf18037b79ce0a76e4b20346f2e9ee2ecb5">
+					<parameter name="molds">
+						<value index="0">44379958</value>
+						<value index="1">1270351006</value>
+						<value index="2">1711446590</value>
+					</parameter>
+					<parameter name="player">1102926842</parameter>
+				</property>
+				<property/>
+			</properties>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -5.3217702 21.850401 -20.72357 1.0</transform>
+		</node>
+		<node type="WorldTrigger" id="509132018" name="WorldTrigger">
+			<touch>1</touch>
+			<properties>
+				<property parent="c7a20a9df9390b58ba7196d7b14c464a7e8a0121" guid="8a68b2ac6dbc8e1bd043ecbefec3ad0508cbbaa0">
+					<parameter name="player">1102926842</parameter>
+				</property>
+			</properties>
+			<transform>39.737438 0 0 0.0 0 1.9999999 0 0.0 0 0 40.000008 0.0 -5.4507899 -105.09373 -12.84909 1.0</transform>
+		</node>
+	</editor>
+	<console>
+		<bake_lighting_bounces>4</bake_lighting_bounces>
+		<bake_lighting_voxel_size_multiplier>1</bake_lighting_voxel_size_multiplier>
+		<bake_lightmap_quality>3</bake_lightmap_quality>
+		<bake_lightmap_viewport_mask>-1</bake_lightmap_viewport_mask>
+		<bake_lightmap_zfar>1000</bake_lightmap_zfar>
+	</console>
+</world>

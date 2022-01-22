@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>fed717bc322c0febe4f6644ed4871f55ed1468b0</guid>
+	<type>component</type>
+	<hash>c512bf88</hash>
+	<runtimes>
+		<runtime id="fed717bc322c0febe4f6644ed4871f55ed1468b0" name="LevelManager.cs" link="0"/>
+		<runtime id="a7326492a0523ac9e1a9059495b133e3824607e6" name="LevelManager.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

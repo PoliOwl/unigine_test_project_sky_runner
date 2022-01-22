@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>9cdb6fec9037aa5b6005dbfeee305345b7cdabe0</guid>
+	<type>component</type>
+	<hash>91502963</hash>
+	<runtimes>
+		<runtime id="9cdb6fec9037aa5b6005dbfeee305345b7cdabe0" name="MoldSpowner.cs" link="0"/>
+		<runtime id="69fe93426e7ab9b9e1bb17c4908b4053573d4996" name="MoldSpowner.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>eb8cd15fc0486f32b84c84e910078934738fa303</guid>
+	<type>component</type>
+	<hash>6ceca492</hash>
+	<runtimes>
+		<runtime id="eb8cd15fc0486f32b84c84e910078934738fa303" name="KillWall.cs" link="0"/>
+		<runtime id="c7a20a9df9390b58ba7196d7b14c464a7e8a0121" name="KillWall.prop" link="1" type="4"/>
+	</runtimes>
+</asset>
